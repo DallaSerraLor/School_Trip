@@ -15,6 +15,7 @@ public class Maintest {
 		//valutare se fare sotto-classe tra person, student e teacher (in base al compagno/a)
 		//vedi CHAT-GPT
 		//Testa PUSHESSSSS!!!!!!!!!!
+		//Test2
 	}
 
 }
