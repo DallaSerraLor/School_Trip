@@ -12,10 +12,8 @@ public class Maintest {
 		
 		System.out.println("Franco.");
 		
-		//valutare se fare sotto-classe tra person, student e teacher (in base al compagno/a)
-		//vedi CHAT-GPT
-		//Testa PUSHESSSSS!!!!!!!!!!
-		//Test2
+		//valutare se fare sotto-classe tra person, student e teacher
+		//vedi chat-GPT
 	}
 
 }
