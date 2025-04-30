@@ -5,12 +5,17 @@ public class Person {
 	private final String username;
 	private final String password;
 	
-	private Person(String name, String surname, String username, String password) {
+	protected Person(String name, String surname, String username, String password) {
 		super();
 		this.name = name;
 		this.surname = surname;
 		this.username = username;
 		this.password = password;
+	}
+	
+	public boolean is_correct(String psw)
+	{
+		return psw == this.password;
 	}
 
 	public String getName() {
