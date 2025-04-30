@@ -10,10 +10,29 @@ public class Maintest {
 		
 		// Forse aggiungere classe Feature che esegue le features richieste dal programma
 		
-		System.out.println("Franco.");
+		//System.out.println("Franco.");
 		
 		//valutare se fare sotto-classe tra person, student e teacher
-		//vedi chat-GPT
+		//vedi chat-GPT+
+		
+		
+		Teacher x = new Teacher (01, "Franco", "Rossi", "FrcRss", "password");
+		
+		System.out.println(x);
+		
+		if(x.psw_is_correct("abc"))
+		{
+			System.out.println("password e' abc");
+		}
+		else
+		{
+			System.out.println("password non abc");
+		}
+		
+		if(x.psw_is_correct("password"))
+		{
+			System.out.println("password e' password");
+		}
 	}
 
 }

@@ -13,7 +13,7 @@ public class Person {
 		this.password = password;
 	}
 	
-	public boolean is_correct(String psw)
+	public boolean psw_is_correct(String psw)
 	{
 		return psw == this.password;
 	}
